@@ -1,0 +1,14 @@
+<suite name="Bank Account Testing">
+	<parameter name="RequestID" value="Run1" />
+	<test name ="Testing Savings Bank Account">
+		<classes>
+			<class name ="QualityKioskTraining.BankAccount.TestingForSavingsAccount"/>
+		</classes>
+	</test>
+	
+	<test name ="Testing Salary Bank Account">
+		<classes>
+			<class name ="QualityKioskTraining.BankAccount.TestingForSalaryAccount"/>
+		</classes>
+	</test>
+</suite>
